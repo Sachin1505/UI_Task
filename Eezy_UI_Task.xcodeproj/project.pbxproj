@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D70BFC5A248A529A00507FFA /* dateSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BFC59248A529A00507FFA /* dateSupport.swift */; };
 		D770880424891A0C00BA4B13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D770880324891A0C00BA4B13 /* AppDelegate.swift */; };
 		D770880624891A0C00BA4B13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D770880524891A0C00BA4B13 /* SceneDelegate.swift */; };
-		D770880824891A0C00BA4B13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D770880724891A0C00BA4B13 /* ViewController.swift */; };
 		D770880B24891A0C00BA4B13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D770880924891A0C00BA4B13 /* Main.storyboard */; };
 		D770880D24891A1400BA4B13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D770880C24891A1400BA4B13 /* Assets.xcassets */; };
 		D770881024891A1400BA4B13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D770880E24891A1400BA4B13 /* LaunchScreen.storyboard */; };
+		D77088182489A6D800BA4B13 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77088172489A6D800BA4B13 /* FirstVC.swift */; };
+		D7A46020249429EE004E2B1F /* DateSetCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A4601E249429EE004E2B1F /* DateSetCVCell.swift */; };
+		D7A46021249429EE004E2B1F /* DateSetCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A4601F249429EE004E2B1F /* DateSetCVCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D70BFC59248A529A00507FFA /* dateSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateSupport.swift; sourceTree = "<group>"; };
 		D770880024891A0C00BA4B13 /* Eezy_UI_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eezy_UI_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D770880324891A0C00BA4B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D770880524891A0C00BA4B13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D770880724891A0C00BA4B13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D770880A24891A0C00BA4B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D770880C24891A1400BA4B13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D770880F24891A1400BA4B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D770881124891A1400BA4B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D77088172489A6D800BA4B13 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		D7A4601E249429EE004E2B1F /* DateSetCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSetCVCell.swift; sourceTree = "<group>"; };
+		D7A4601F249429EE004E2B1F /* DateSetCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateSetCVCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,11 +43,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BC8076F5D4CD3FFC57093AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D70BFC58248A526B00507FFA /* DateExtension */ = {
+			isa = PBXGroup;
+			children = (
+				D70BFC59248A529A00507FFA /* dateSupport.swift */,
+			);
+			path = DateExtension;
+			sourceTree = "<group>";
+		};
+		D76048DE24957B0E004C03CD /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				D7A4601E249429EE004E2B1F /* DateSetCVCell.swift */,
+				D7A4601F249429EE004E2B1F /* DateSetCVCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
 		D77087F724891A0B00BA4B13 = {
 			isa = PBXGroup;
 			children = (
 				D770880224891A0C00BA4B13 /* Eezy_UI_Task */,
 				D770880124891A0C00BA4B13 /* Products */,
+				3BC8076F5D4CD3FFC57093AC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +89,10 @@
 			children = (
 				D770880324891A0C00BA4B13 /* AppDelegate.swift */,
 				D770880524891A0C00BA4B13 /* SceneDelegate.swift */,
-				D770880724891A0C00BA4B13 /* ViewController.swift */,
 				D770880924891A0C00BA4B13 /* Main.storyboard */,
+				D77088172489A6D800BA4B13 /* FirstVC.swift */,
+				D76048DE24957B0E004C03CD /* XIB */,
+				D70BFC58248A526B00507FFA /* DateExtension */,
 				D770880C24891A1400BA4B13 /* Assets.xcassets */,
 				D770880E24891A1400BA4B13 /* LaunchScreen.storyboard */,
 				D770881124891A1400BA4B13 /* Info.plist */,
@@ -126,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D770881024891A1400BA4B13 /* LaunchScreen.storyboard in Resources */,
+				D7A46021249429EE004E2B1F /* DateSetCVCell.xib in Resources */,
 				D770880D24891A1400BA4B13 /* Assets.xcassets in Resources */,
 				D770880B24891A0C00BA4B13 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +172,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D770880824891A0C00BA4B13 /* ViewController.swift in Sources */,
+				D7A46020249429EE004E2B1F /* DateSetCVCell.swift in Sources */,
+				D70BFC5A248A529A00507FFA /* dateSupport.swift in Sources */,
+				D77088182489A6D800BA4B13 /* FirstVC.swift in Sources */,
 				D770880424891A0C00BA4B13 /* AppDelegate.swift in Sources */,
 				D770880624891A0C00BA4B13 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +323,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5AE63N5Y3X;
 				INFOPLIST_FILE = Eezy_UI_Task/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +342,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5AE63N5Y3X;
 				INFOPLIST_FILE = Eezy_UI_Task/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

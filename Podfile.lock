@@ -1,0 +1,20 @@
+PODS:
+  - ASWeekSelectorView (1.0.5)
+  - FSCalendar (2.8.1)
+
+DEPENDENCIES:
+  - ASWeekSelectorView
+  - FSCalendar
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ASWeekSelectorView
+    - FSCalendar
+
+SPEC CHECKSUMS:
+  ASWeekSelectorView: 22120b87ede4d9e3506d8297a1ce79309a8f1679
+  FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
+
+PODFILE CHECKSUM: 7bf1120a21398e9d0b6161f1c4dbb60daac9200b
+
+COCOAPODS: 1.7.5
